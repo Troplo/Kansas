@@ -1,0 +1,37 @@
+.troplo-title {
+    font-weight: 500;
+    background: -webkit-radial-gradient(#0179f3, #0190ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.innerLogin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.search-button {
+    width: 400px;
+}
+
+.search-button:focus {
+    outline: none;
+}
+
+.v-btn {
+    text-transform: capitalize !important;
+}
